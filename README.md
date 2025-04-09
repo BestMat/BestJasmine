@@ -71,3 +71,7 @@ let mut builder = JasmineBuilder::new(Compilers::Gcc);
 builder.add_file(codegen.get_c_file());
 builder.build("main");
 ```
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
